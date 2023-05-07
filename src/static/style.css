@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Navbar{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+    line-height: 200px;
+}
+.Navbar ul{
+    list-style-type: none;
+    padding: 0px;
+}
+.Navbar ul li{
+    float: left;
+}
+.Navbar ul li a{
+    color: white;
+    padding: 0px 80px;
+    text-decoration: none;
+    display: block;
+    font-size: 80px;
+}
+.Navbar ul li a:hover{
+    color: white;
+    padding: 0px 80px;
+    text-decoration: none;
+    transform: scale(1.25);
+}
+.current_data{
+    background-color: #3b3c36;
+    padding: 20px;
+    /* margin-top: 175px; */
+}
+.current_data h1{
+    color: white;
+    font-size: x-large;
+}
+.current_data .temp{
+    color: white;
+    font-size: 100px;
+}
+.temp_deg{
+    display: inline-block;
+}
+.cloud_icon{
+    display: inline-block;   
+    width: 150px;
+    height: 160px;
+    margin-left: 10px;  
+}
+.current_date{
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: xx-large;
+}
+.current_data1{
+    display: inline-block;
+    border-right: 2px solid white;
+    padding: 20px;
+}
+
+#wallpaper{
+    /* background-image: url('../static/images/backgroundwallpapers/bg8.jpg'); */
+    width: 100%;
+    height: 2000px;  
+    /* background-size:100% 100%;   */
+}
+.backGroundImage{
+    z-index: -1;
+    position: absolute;
+}
+.image_data{
+    z-index: 1;
+    position: relative;    
+}
+#area{
+    font-size: 200px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+#city{
+    font-size: 200px;
+    float: right;
+    margin-right: 100px;
+}
